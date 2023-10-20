@@ -20,4 +20,9 @@ public class People {
         this.lastName = lastName;
         this.email = email;
     }
+
+   @Override
+    public String toString(){
+    return firstName + " " + lastName;
+}
 }
