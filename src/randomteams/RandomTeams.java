@@ -4,6 +4,11 @@
  */
 package randomteams;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 /**
  *
  * @author user
@@ -14,7 +19,8 @@ public class RandomTeams {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        List<People> person = new ArrayList<>();
+        Set<People> usedPerson = new HashSet<>();
     }
     
 }
