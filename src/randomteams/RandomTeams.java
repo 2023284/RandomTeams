@@ -44,6 +44,22 @@ public class RandomTeams {
             e.printStackTrace();
         }
 
-        Collections.shuffle(person);}
-    
-}
+        Collections.shuffle(person);
+       List<Team> teams = new ArrayList<>();
+
+        for (int i = 1; i <= 20; i++) {
+            Team team = new Team("Part. " + i);
+            for (int j = 0; j < 5; j++) {
+                if (!person.isEmpty()) {
+                    team.addMember(person.remove(0));
+                }
+            }
+            teams.add(team);
+        }
+
+        for (Team team : teams) {
+            System.out.println(team);
+        }
+    }
+    }
+
