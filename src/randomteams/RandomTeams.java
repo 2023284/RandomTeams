@@ -15,7 +15,7 @@ import java.util.Set;
 
 /**
  *
- * @author user
+ * https://github.com/2023284/RandomTeams.git 
  */
 public class RandomTeams {
 
@@ -62,4 +62,3 @@ public class RandomTeams {
         }
     }
     }
-
